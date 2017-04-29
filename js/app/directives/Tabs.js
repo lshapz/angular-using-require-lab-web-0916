@@ -36,5 +36,5 @@ function Tabs() {
 }
  
 angular
-  .module('app', [])
+  .module('app')
   .directive('tabs', Tabs);
